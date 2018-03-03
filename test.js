@@ -16,4 +16,11 @@ if( age > 40 ){
 	} else {
 		console.log("I hate you!");
 	}
+}
+
+var youngerThanMe =age;
+
+while(youngerThanMe > 0){
+	console.log("Someone age",(age- youngerThanMe),"is",youngerThanMe,"youngerThanMe" );
+    youngerThanMe--;
 }								
